@@ -1,0 +1,43 @@
+
+
+.carActive{
+    display: block;
+    width: 14rem;
+    height: 10rem;
+    border: 2px solid #87f7f7;
+    border-radius: 13px;
+    color: white;
+    animation: carousel .7s ease-in;
+}
+
+@keyframes carousel{
+    from {
+        transform:translateX(0px);
+        opacity: 1;
+      }
+      to {
+        transform:translateX(-200px);
+        opacity: 0;
+      }
+}
+
+.carActiveRight{
+    display: block;
+    width: 14rem;
+    height: 10rem;
+    border: 2px solid #87f7f7;
+    border-radius: 13px;
+    color: white;
+    animation: carouselRight .7s ease-in;
+}
+
+@keyframes carouselRight{
+    from {
+        transform:translateX(0px);
+        opacity: 1;
+      }
+      to {
+        transform:translateX(+200px);
+        opacity: 0;
+      }
+}
